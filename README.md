@@ -4,12 +4,12 @@
 > ingestion SQL → nettoyage → KPI exécutifs → segmentation RFM → simulation commerciale.
 > Application web interactive déployée et utilisable en un clic.
 
-**🔗 Démo live :** _(à coller après déploiement Streamlit Cloud)_
-**🐙 Code source :** [github.com/RayenQuant/sales-rfm-dashboard](https://github.com/RayenQuant/sales-rfm-dashboard)
+** Démo live :** (https://rayenquant-dashboard.streamlit.app/)
+
 
 ---
 
-## 📸 Aperçu
+## Aperçu
 
 | Vue Exécutive | Analyse Client | Simulateur Commercial |
 | ------------- | -------------- | --------------------- |
@@ -17,7 +17,7 @@
 
 ---
 
-## 🎯 Ce que démontre ce projet
+## Ce que démontre ce projet
 
 | Compétence                          | Mise en pratique                                                                    |
 | ----------------------------------- | ----------------------------------------------------------------------------------- |
@@ -31,7 +31,7 @@
 
 ---
 
-## 📊 Données
+## Données
 
 Le projet est conçu pour le **UCI Online Retail Dataset** (~541 909 transactions e-commerce UK, 2010-2011) :
 
@@ -42,7 +42,7 @@ Pour faciliter le test immédiat, un **générateur de données synthétiques** 
 
 ---
 
-## 🚀 Démarrage rapide
+## Démarrage rapide
 
 ```bash
 # 1. Cloner et installer
@@ -64,24 +64,13 @@ L'application est accessible sur **http://localhost:8501**.
 
 ---
 
-## 🐳 Avec Docker
+## Avec Docker
 
 ```bash
 docker build -t sales-rfm-dashboard .
 docker run -p 8501:8501 sales-rfm-dashboard
 ```
 
----
-
-## ☁️ Déploiement Streamlit Cloud (gratuit)
-
-1. Pousser ce repo sur GitHub.
-2. Aller sur [share.streamlit.io](https://share.streamlit.io) et se connecter avec GitHub.
-3. **New app** → sélectionner le repo, branche `main`, fichier `app.py`.
-4. Streamlit Cloud installe `requirements.txt` automatiquement et déploie l'app sous quelques minutes.
-5. Coller le lien public dans le CV.
-
-> Astuce : le `data/retail.db` est généré au premier démarrage de l'app si absent, donc rien à committer côté données.
 
 ---
 
@@ -129,7 +118,7 @@ DataFrame Pandas
 
 ---
 
-## 🧠 Notes méthodologiques
+##  Notes méthodologiques
 
 ### Nettoyage
 
@@ -152,7 +141,7 @@ DataFrame Pandas
 
 ---
 
-## 🧪 Tests
+##  Tests
 
 ```bash
 pip install pytest
