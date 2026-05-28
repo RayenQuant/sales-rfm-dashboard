@@ -258,7 +258,7 @@ with st.sidebar:
 
     st.divider()
     st.caption(
-        "💡 **Données** : 46k transactions e-commerce générées sur le format "
+        "**Données** : 537k transactions e-commerce générées sur le format "
         "du UCI Online Retail Dataset. Remplaçables par le fichier officiel."
     )
 
