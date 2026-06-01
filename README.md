@@ -4,8 +4,8 @@
 > ingestion SQL → nettoyage → KPI exécutifs → segmentation RFM → simulation commerciale.
 > Application web interactive déployée et utilisable en un clic.
 
-** Démo live :** (https://rayenquant-dashboard.streamlit.app/)
-
+## Démo live
+https://rayenquant-dashboard.streamlit.app/
 
 ---
 
